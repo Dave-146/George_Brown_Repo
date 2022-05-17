@@ -6,5 +6,8 @@ h1{
     font-size: 22px;
 }
 table{
-    border:2px;
+border:2px; border: solid; color: black;
+}
+th{
+    border:solid; color:black;
 }
