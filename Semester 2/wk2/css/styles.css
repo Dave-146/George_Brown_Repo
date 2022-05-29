@@ -1,8 +1,10 @@
 body{
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(234, 234, 234);
     color:rgb(19, 19, 31);
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 50px;
 }
 h1{
     text-align: center;
@@ -17,6 +19,7 @@ border:2px; border: solid; color: black;
 }
 .table-style{
     border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
 }
 th,td {
     padding:20px;
