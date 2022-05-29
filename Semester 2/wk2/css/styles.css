@@ -1,13 +1,24 @@
+body{
+    background-color: rgb(231, 230, 230);
+    color:rgb(19, 19, 31);
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 h2{
     font-size: 15px;
+    color: blue;
 }
 h1{
     text-align: center;
-    font-size: 22px;
+    font-size: 12px;
 }
 table{
 border:2px; border: solid; color: black;
 }
-th{
-    border:solid; color:black;
+.table-style{
+    border: 2px solid rgb(0, 0, 0);
 }
+th,td {
+    padding:20px;
+    border: 1px solid rgb(0, 0, 0);
+    }
