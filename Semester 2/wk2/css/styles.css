@@ -4,13 +4,13 @@ body{
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h2{
-    font-size: 15px;
-    color: blue;
-}
 h1{
     text-align: center;
     font-size: 12px;
+}
+h2{
+    font-size: 15px;
+    color: blue;
 }
 table{
 border:2px; border: solid; color: black;
