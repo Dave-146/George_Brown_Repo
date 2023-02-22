@@ -39,3 +39,50 @@ function validateForm() {
    console.log('Form submitted successfully');
    return true;
   }
+// Part 2
+
+  // array of products
+  products = [
+    'Mac',
+    'iPhone',
+    'iOS',
+    'Android',
+    'iPad',
+    'Apple Watch',
+    'Samsung',
+    'HP',
+    'Google Pixel',
+    'Google Glass'
+  ];
+  
+  searchInput = document.getElementById('searchInput');
+  productList = document.getElementById('productList');
+  
+  function displayProducts(products) {
+  productList.innerHTML = '';
+    
+    for (let i = 0; i < products.length; i++) {
+    product = products[i];
+    li = document.createElement('li');
+    li.textContent = product;
+    productList.appendChild(li);
+    }
+  }
+  
+  displayProducts(products);
+  
+  function searchProducts(query) {
+    filteredProducts = products.filter(function(product) {
+    productName = product.toLowerCase();
+    searchQuery = query.toLowerCase();
+      
+    return productName.includes(searchQuery);
+    });
+    
+    return filteredProducts;
+  }
+    searchInput.addEventListener('input', function() {
+    const searchQuery = searchInput.value;
+    const filteredProducts = searchProducts(searchQuery);
+    displayProducts(filteredProducts);
+  });
