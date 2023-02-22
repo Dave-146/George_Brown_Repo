@@ -44,15 +44,15 @@ function validateForm() {
   // array of products
   products = [
     'Mac',
-    'iPhone',
-    'iOS',
+    'Windows',
+    'PC',
     'Android',
-    'iPad',
-    'Apple Watch',
+    'iPhone',
+    'AmazonFireTV',
     'Samsung',
     'HP',
     'Google Pixel',
-    'Google Glass'
+    'Holo Lens',
   ];
   
   searchInput = document.getElementById('searchInput');
