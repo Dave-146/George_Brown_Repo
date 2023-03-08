@@ -1,0 +1,75 @@
+/* || general styles */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  padding: 40px;
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+}
+
+/* header styles */
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-left: 20px;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* section styles */
+
+section article{
+  width: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 10px #31C5D7;
+  transition: width 2s, background-color 1s, box-shadow 1s;
+  border-radius: 10px;
+  color: black;
+}
+
+section article:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+section p {
+  margin: 5px 100px;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+article{
+  text-align: center;
+}
